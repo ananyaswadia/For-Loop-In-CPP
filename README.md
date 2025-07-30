@@ -27,17 +27,58 @@ Exit: Once the condition becomes false, the loop terminates, and control exits t
 <img width="653" height="500" alt="image" src="https://github.com/user-attachments/assets/499ff8ec-7ca2-4a03-86d7-d3f5df7f3da2" />
 
 ## Algorithms
-### Hourglass Pattern
-### Flyod's Series
+### Reversing A String
 1. Start
 
-2. Input the number of rows (rows)
+2. Prompt the user to enter a PRN
 
-3. For i from rows down to 1 and For j from 1 to i: wePrint *
+3. We ead the PRN as a string
 
-4. Print a newline
+4. If the length of PRN is not 10:
 
-5. End
+5. Display error message and end program
+
+6. Else: we first print the statemnt - “Reversed PRN:”
+
+7. Use loop- For each character from end to start:
+
+8. Print the character
+
+9. End
+### Floyd's Series
+1. Start
+
+2. Set n = 4 and num = 1
+
+3. For i from 1 to n: and For j from 1 to i: we Print num
+
+4.Increment num by 1
+
+5. Print a newline
+
+6. End
+### Hourglass Pattern
+1. Start
+
+2. Set h = 10 (height of the pattern)
+
+3. For upper half (inverted pyramid):
+
+4. Use loop- For i from 0 to (h + 1)/2 - 1: , and Print i spaces
+
+5. Print h - 2*i stars
+
+6. Print newline
+
+7. Lower half (upright pyramid):
+
+8. Use loop- For i from (h - 1)/2 - 1 down to 0:, and Print i spaces
+
+9. Print h - 2*i stars
+
+10. Print newline
+
+11. End
 ### Password Authentication
 1. Start
 
